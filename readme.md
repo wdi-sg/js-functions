@@ -14,7 +14,7 @@ These problems will use your knowledge of looping and conditionals, and we will 
 
 ###maxOfThree(num)
 
-Define a function `maxOfTwoNumbers` that takes three numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript. 
+Define a function `maxOfThree` that takes three numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript. 
 
 ---
 
