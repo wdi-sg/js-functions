@@ -24,7 +24,7 @@ Write a function `isCharacterAVowel` that takes a character (i.e. a string of le
 
 ---
 
-###sumArray(num)
+###sumArray(arr)
 
 Define a function `sumArray` and a function `multiplyArray` that sums and multiplies (respectively) all the numbers in an array of numbers. For example, `sumArray([1,2,3,4])` should return 10, and `multiplyArray([1,2,3,4])` should return 24.
 
@@ -44,7 +44,7 @@ Define a function `reverseString` that reverses a string. For example, reverseSt
 
 ---
 
-###findLongestWord(num)
+###findLongestWord(arr)
 
 Write a function `findLongestWord` that takes an array of words and returns the length of the longest word in the array.
 
