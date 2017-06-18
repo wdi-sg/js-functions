@@ -18,7 +18,7 @@ Define a function `maxOfThree` that takes three numbers as arguments and returns
 
 ---
 
-###isCharacterAVowel(num)
+### isCharacterAVowel(num)
 
 Write a function `isCharacterAVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel and false, otherwise.
 
@@ -44,7 +44,7 @@ Define a function `reverseString` that reverses a string. For example, reverseSt
 
 ---
 
-###findLongestWord(arr)
+### findLongestWord(arr)
 
 Write a function `findLongestWord` that takes an array of words and returns the length of the longest word in the array.
 
