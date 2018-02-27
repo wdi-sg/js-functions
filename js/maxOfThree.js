@@ -11,6 +11,6 @@ function maxOfThree(num1, num2, num3) {
     return bigNum;
 }
 
-
-maxOfThree(3, 1, 2)
-
+console.log(maxOfThree(3, 1, 2))
+console.log(maxOfThree(4, 15, 23))
+console.log(maxOfThree(3, 100, 20))
