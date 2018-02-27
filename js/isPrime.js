@@ -1,16 +1,18 @@
-// Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript.
+// Create a function to return true or false if a number passed in a prime number.
 
-function maxOfThree(num1, num2, num3) {
-    var bigNum = num1; 
-    if (num2 > bigNum) {
-        bigNum = num2;
+function isPrime(num) {
+    // start evaluating a number from its square to reduce number of computations
+    var newNum = Math.ceil(Math.sqrt(num));
+
+    // if the number is divisible by anything other than 1, it is not an integer
+    for (var i = newNum; i > 1; i--) {
+        if (Number.isInteger(num/i) && num/i !== 1) {
+            return false;
+        }
     }
-    if (num3 > bigNum) {
-        bigNum = num3;
-    }
-    return bigNum;
+    return true;
 }
 
-
-maxOfThree(3, 1, 2)
-
+console.log(isPrime(2) === true);
+console.log(isPrime(541) === true);
+console.log(isPrime(4) === false);
