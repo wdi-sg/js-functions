@@ -6,7 +6,8 @@ These problems will use your knowledge of looping and conditionals, and we will 
 
 * Fork and clone this repository
 * Solve the problems below in separate files, located in `js`
-* Run `node js/nameOfFile.js` to execute code
+* Run each file by including it in your html file `<script src="nameOfFile.js"/>`
+
 
 ---
 
